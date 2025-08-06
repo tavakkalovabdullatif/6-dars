@@ -1,17 +1,23 @@
 //--------------------------------------------------1-masala--------------------------------------------------------------------------------
-const user = {
-  name: "Ali",
-  age: 25,
-};
+// function getUserInfo(user) {
+//   const user = {
+//     name: "Ali",
+//     age: 25,
+//   };
+//   console.log(`Foydalanuvchi ismi ${[user.name]}, yoshi: ${user.age}`);
+// }
 
-function getUserInfo(user) {
-  console.log(`Foydalanuvchi ismi ${[user.name]}, yoshi: ${user.age}`);
-}
+// getUserInfo();
 
-getUserInfo();
 
-function getUserInfo(user) {
-  console.log(`Foydalanuvchi ismi ${user.name}, yoshi: ${user.age}`);
-}
+//--------------------------------------------------2-masala--------------------------------------------------------------------------------
+// function addTax(product) {
+//   const product = {
+//     name: "Samsung Galaxy Tab 4",
+//     price: 1000,
+//   };
 
-getUserInfo({ name: "Ali", age: 25 });
+//     console.log(`${name}: Samsung Galaxy Tab 4 ${price}: 1000`)
+// }
+
+// addTax(product);
